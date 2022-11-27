@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Blaster Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Debug",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Debug",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Debug",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"DebugGame",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"DebugGame",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"DebugGame",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Development",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Development",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Development",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Test",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Test",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Test",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Shipping",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Shipping",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Blaster",
+				"Win64",
+				"Shipping",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Debug",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Debug",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Debug",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"DebugGame",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"DebugGame",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"DebugGame",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Development",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Development",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Development",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Test",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Test",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Test",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Shipping",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Shipping",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "Blaster IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Shipping",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "BlasterEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BlasterEditor",
+				"Win64",
+				"Debug",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "BlasterEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BlasterEditor",
+				"Win64",
+				"Debug",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlasterEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "BlasterEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BlasterEditor",
+				"Win64",
+				"Debug",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "BlasterEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BlasterEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "BlasterEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BlasterEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlasterEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "BlasterEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BlasterEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "BlasterEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BlasterEditor",
+				"Win64",
+				"Development",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "BlasterEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BlasterEditor",
+				"Win64",
+				"Development",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlasterEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "BlasterEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BlasterEditor",
+				"Win64",
+				"Development",
+				"C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		}
+	]
+}
