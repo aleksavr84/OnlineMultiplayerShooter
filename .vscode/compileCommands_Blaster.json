@@ -1,409 +1,409 @@
 [
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\MultiplayerSessions.Build.cs",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\MultiplayerSessions.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Private\\Menu.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Private\\Menu.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Private\\MultiplayerSessions.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Private\\MultiplayerSessions.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Private\\MultiplayerSessionsSubsystem.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Private\\MultiplayerSessionsSubsystem.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Public\\Menu.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Public\\Menu.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Public\\MultiplayerSessions.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Public\\MultiplayerSessions.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Public\\MultiplayerSessionsSubsystem.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Public\\MultiplayerSessionsSubsystem.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\MultiplayerSessions.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Blaster.Build.cs",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Blaster.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Blaster.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Blaster.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Blaster.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Blaster.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\BlasterComponents\\CombatComponent.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\BlasterComponents\\CombatComponent.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\BlasterComponents\\CombatComponent.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\BlasterComponents\\CombatComponent.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\BlasterTypes\\CombatState.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\BlasterTypes\\CombatState.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\BlasterTypes\\TurningInPlace.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\BlasterTypes\\TurningInPlace.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Character\\BlasterAnimInstance.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Character\\BlasterAnimInstance.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Character\\BlasterAnimInstance.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Character\\BlasterAnimInstance.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Character\\BlasterCharacter.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Character\\BlasterCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Character\\BlasterCharacter.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Character\\BlasterCharacter.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\GameMode\\BlasterGameMode.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\GameMode\\BlasterGameMode.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\GameMode\\BlasterGameMode.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\GameMode\\BlasterGameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\GameMode\\LobbyGameMode.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\GameMode\\LobbyGameMode.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\GameMode\\LobbyGameMode.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\GameMode\\LobbyGameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\GameState\\BlasterGameState.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\GameState\\BlasterGameState.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\GameState\\BlasterGameState.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\GameState\\BlasterGameState.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\HUD\\Announcement.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\HUD\\Announcement.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\HUD\\Announcement.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\HUD\\Announcement.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\HUD\\BlasterHUD.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\HUD\\BlasterHUD.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\HUD\\BlasterHUD.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\HUD\\BlasterHUD.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\HUD\\CharacterOverlay.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\HUD\\CharacterOverlay.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\HUD\\CharacterOverlay.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\HUD\\CharacterOverlay.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\HUD\\OverheadWidget.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\HUD\\OverheadWidget.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\HUD\\OverheadWidget.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\HUD\\OverheadWidget.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Interfaces\\InteractWithCrosshairsInterface.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Interfaces\\InteractWithCrosshairsInterface.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Interfaces\\InteractWithCrosshairsInterface.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Interfaces\\InteractWithCrosshairsInterface.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\PlayerController\\BlasterPlayerController.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\PlayerController\\BlasterPlayerController.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\PlayerController\\BlasterPlayerController.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\PlayerController\\BlasterPlayerController.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\PlayerState\\BlasterPlayerState.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\PlayerState\\BlasterPlayerState.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\PlayerState\\BlasterPlayerState.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\PlayerState\\BlasterPlayerState.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\Casing.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\Casing.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\Casing.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\Casing.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\Projectile.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\Projectile.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\Projectile.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\Projectile.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\ProjectileBullet.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\ProjectileBullet.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\ProjectileBullet.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\ProjectileBullet.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\ProjectileRocket.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\ProjectileRocket.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\ProjectileRocket.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\ProjectileRocket.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\ProjectileWeapon.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\ProjectileWeapon.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\ProjectileWeapon.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\ProjectileWeapon.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\Weapon.cpp",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\Weapon.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\Weapon.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\Weapon.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\Source\\Blaster\\Weapon\\WeaponTypes.h",
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\WeaponTypes.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	}

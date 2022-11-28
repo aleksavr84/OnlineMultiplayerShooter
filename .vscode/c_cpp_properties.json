@@ -6,7 +6,7 @@
             "cStandard": "c17",
             "cppStandard": "c++14",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Blaster.json"
+            "compileCommands": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster.json"
         },
         {
             "name": "Win32",
@@ -14,7 +14,7 @@
             "cStandard": "c17",
             "cppStandard": "c++14",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "C:\\Development\\UnrealEngine\\Projects\\MultiplayerCourse\\Blaster 5.1\\.vscode\\compileCommands_Default.json"
+            "compileCommands": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Default.json"
         }
     ],
     "version": 4
