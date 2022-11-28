@@ -384,6 +384,22 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\RocketMovementComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\RocketMovementComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\.vscode\\compileCommands_Blaster\\Blaster.258.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
 		"file": "C:\\Development\\UnrealEngine\\Projects\\Git\\OnlineMultiplayerShooter\\Source\\Blaster\\Weapon\\Weapon.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
