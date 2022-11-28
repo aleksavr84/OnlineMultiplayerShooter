@@ -584,10 +584,13 @@ void ABlasterCharacter::PlayRealoadMontage()
 		{
 			case EWeaponType::EWT_AssaultRiffle:
 				SectionName = FName("Rifle");
-			break;
+				break;
 			case EWeaponType::EWT_RocketLauncher:
 				SectionName = FName("Rifle");
-			break;
+				break;
+			case EWeaponType::EWT_Pistol:
+				SectionName = FName("Rifle");
+				break;
 
 		}
 		
