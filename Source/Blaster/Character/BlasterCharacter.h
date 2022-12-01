@@ -70,6 +70,7 @@ public:
 	void PlayFireMontage(bool bAiming);
 	void PlayRealoadMontage();
 	void PlayElimMontage();
+	void PlayThrowGrenadeMontage();
 	virtual void OnRep_ReplicatedMovement() override;
 	void Elim();
 
@@ -101,6 +102,7 @@ protected:
 	void ReloadButtonPressed();
 	void AimButtonPressed();
 	void AimButtonReleased();
+	void GrenadeButtonPressed();
 	void AimOffset(float DeltaTime);
 	void SimProxiesTurn();
 	virtual void Jump() override;
@@ -165,6 +167,9 @@ private:
 
 	UPROPERTY(EditAnywhere, Category = Combat)
 	class UAnimMontage* ElimMontage;
+
+	UPROPERTY(EditAnywhere, Category = Combat)
+	class UAnimMontage* ThrowGrenadeMontage;
 
 	//UPROPERTY(EditAnywhere, Category = Mesh)
 	//class USkeletalMesh* FirstPersonMesh;
