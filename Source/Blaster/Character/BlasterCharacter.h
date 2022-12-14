@@ -171,18 +171,6 @@ private:
 	UPROPERTY(EditAnywhere, Category = Combat)
 	class UAnimMontage* ThrowGrenadeMontage;
 
-	//UPROPERTY(EditAnywhere, Category = Mesh)
-	//class USkeletalMesh* FirstPersonMesh;
-
-	//UPROPERTY(EditAnywhere, Category = Mesh)
-	//class USkeletalMesh* ThirdPersonMesh;
-
-	//UPROPERTY(EditAnywhere, Category = Mesh)
-	//UClass* FirstPersonAnim;
-
-	//UPROPERTY(EditAnywhere, Category = Mesh)
-	//UClass* ThirdPersonAnim;
-
 	void HideCameraIfCharaterClose();
 
 	UPROPERTY(EditAnywhere)
@@ -255,6 +243,12 @@ private:
 
 	UPROPERTY()
 	class ABlasterPlayerState* BlasterPlayerState;
+
+	/*
+	* Grenade 
+	*/
+	UPROPERTY(VisibleAnywhere)
+	UStaticMeshComponent* AttachedGrenade;
 
 public:
 	void SetOverlappingWeapon(AWeapon* Weapon);
