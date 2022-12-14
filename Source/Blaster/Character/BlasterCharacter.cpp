@@ -32,18 +32,27 @@ ABlasterCharacter::ABlasterCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 	SpawnCollisionHandlingMethod = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn;
 	
+	//BaseMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Base Mesh"));
+	//BaseMesh->SetupAttachment(FollowCamera);
+	//BaseMesh->SetupAttachment(RootComponent);
+
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(GetMesh());
+	//CameraBoom->SetupAttachment(BaseMesh);
 	CameraBoom->TargetArmLength = 320.f;
 	CameraBoom->bUsePawnControlRotation = true;
 
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
+	//FollowCamera->SetupAttachment(RootComponent, USpringArmComponent::SocketName);
 	FollowCamera->bUsePawnControlRotation = false;
+	//FollowCamera->bUsePawnControlRotation = true;
 
 	bUseControllerRotationYaw = false;
+	//bUseControllerRotationYaw = true;
 	
 	GetCharacterMovement()->bOrientRotationToMovement = true;
+	//GetCharacterMovement()->bOrientRotationToMovement = false;
 
 	OverheadWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("OverheadWidget"));
 	OverheadWidget->SetupAttachment(RootComponent);
@@ -55,8 +64,11 @@ ABlasterCharacter::ABlasterCharacter()
 
 	GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
 	GetMesh()->SetCollisionObjectType(ECC_SkeletalMesh);
+	//BaseMesh->SetCollisionObjectType(ECC_SkeletalMesh);
 	GetMesh()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
+	//BaseMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
 	GetMesh()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Visibility, ECollisionResponse::ECR_Block);
+	//BaseMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Visibility, ECollisionResponse::ECR_Block);
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 0.f, 850.f);
 
 	TurningInPlace = ETurningInPlace::ETIP_NotTurning;
@@ -202,6 +214,29 @@ void ABlasterCharacter::CalculateAO_Pitch()
 	}
 }
 
+// Character movement
+// void ABlasterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+// {
+// 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+// 	PlayerInputComponent->BindAxis("MoveForward", this, &ABlasterCharacter::MoveForward);
+// 	PlayerInputComponent->BindAxis("MoveRight", this, &ABlasterCharacter::MoveRight);
+// 	PlayerInputComponent->BindAxis("Turn", this, &ABlasterCharacter::Turn);
+// 	PlayerInputComponent->BindAxis("LookUp", this, &ABlasterCharacter::LookUp);
+
+// 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ABlasterCharacter::Jump);
+// 	PlayerInputComponent->BindAction("Equip", IE_Pressed, this, &ABlasterCharacter::EquipButtonPressed);
+// 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &ABlasterCharacter::CrouchButtonPressed);
+	
+// 	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &ABlasterCharacter::AimButtonPressed);
+// 	PlayerInputComponent->BindAction("Aim", IE_Released, this, &ABlasterCharacter::AimButtonReleased);
+	
+// 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ABlasterCharacter::FireButtonPressed);
+// 	PlayerInputComponent->BindAction("Fire", IE_Released, this, &ABlasterCharacter::FireButtonReleased);
+	
+// 	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ABlasterCharacter::ReloadButtonPressed);
+// }
+
 void ABlasterCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
@@ -215,6 +250,8 @@ void ABlasterCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerI
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &ABlasterCharacter::Look);
 
 		// Jumping
+		// EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Triggered, this, &ACharacter::Jump);
+		// EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Triggered, this, &ABlasterCharacter::Jump);
 
 		// Equip
@@ -238,6 +275,30 @@ void ABlasterCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerI
 		EnhancedInputComponent->BindAction(ThrowGrenadeAction, ETriggerEvent::Triggered, this, &ABlasterCharacter::GrenadeButtonPressed);
 	}
 }
+
+// void ABlasterCharacter::MoveForward(float Value)
+// {
+// 	if (bDisableGameplay) return;
+
+// 	if (Controller != nullptr && Value != 0.f)
+// 	{
+// 		const FRotator YawRotation(0.f, Controller->GetControlRotation().Yaw, 0.f);
+// 		const FVector Direction(FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X));
+// 		AddMovementInput(Direction, Value);
+// 	}
+// }
+
+// void ABlasterCharacter::MoveRight(float Value)
+// {
+// 	if (bDisableGameplay) return;
+
+// 	if (Controller != nullptr && Value != 0.f)
+// 	{
+// 		const FRotator YawRotation(0.f, Controller->GetControlRotation().Yaw, 0.f);
+// 		const FVector Direction(FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y));
+// 		AddMovementInput(Direction, Value);
+// 	}
+// }
 
 void ABlasterCharacter::Move(const FInputActionValue& Value)
 {
