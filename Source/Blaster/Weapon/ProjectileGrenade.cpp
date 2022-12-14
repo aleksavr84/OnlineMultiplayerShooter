@@ -30,6 +30,10 @@ void AProjectileGrenade::BeginPlay()
 
 void AProjectileGrenade::OnBounce(const FHitResult& ImpactResult, const FVector& ImpactVelocity)
 {
+    AActor* HitActor = ImpactResult.GetActor();
+
+    //UE_LOG(LogTemp, Warning, TEXT("%s"), *HitActor->GetName());
+
     if (BounceSound)
     {
         UGameplayStatics::PlaySoundAtLocation(
