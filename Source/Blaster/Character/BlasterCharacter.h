@@ -109,6 +109,8 @@ protected:
 	void AimButtonPressed();
 	void AimButtonReleased();
 	void GrenadeButtonPressed();
+	void DropOrDestroyWeapon(AWeapon* Weapon);
+	void DropOrDestroyWeapons();
 	void AimOffset(float DeltaTime);
 	void SimProxiesTurn();
 	virtual void Jump() override;
