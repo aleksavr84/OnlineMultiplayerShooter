@@ -27,6 +27,8 @@
 #include "Components/InputComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "Components/BoxComponent.h"
+#include "Blaster/BlasterComponents/LagCompensationComponent.h"
 
 ABlasterCharacter::ABlasterCharacter()
 {
@@ -64,6 +66,8 @@ ABlasterCharacter::ABlasterCharacter()
 	Buff = CreateDefaultSubobject<UBuffComponent>(TEXT("BuffComponent"));
 	Buff->SetIsReplicated(true);
 
+	LagCompensation = CreateDefaultSubobject<ULagCompensationComponent>(TEXT("LagCompensation"));
+
 	GetCharacterMovement()->NavAgentProps.bCanCrouch = true;
 
 	GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
@@ -83,6 +87,89 @@ ABlasterCharacter::ABlasterCharacter()
 	AttachedGrenade = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Attached Grenade"));
 	AttachedGrenade->SetupAttachment(GetMesh(), FName("GrenadeSocket"));
 	AttachedGrenade->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+	/*
+		Hit Boxes for Server-Side Rewind
+	*/
+	Head = CreateDefaultSubobject<UBoxComponent>(TEXT("Head"));
+	Head->SetupAttachment(GetMesh(), FName("head"));
+	Head->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Head"), Head);
+
+	Pelvis = CreateDefaultSubobject<UBoxComponent>(TEXT("Pelvis"));
+	Pelvis->SetupAttachment(GetMesh(), FName("Pelvis"));
+	Pelvis->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Pelvis"), Pelvis);
+
+	Spine_02 = CreateDefaultSubobject<UBoxComponent>(TEXT("Spine_02"));
+	Spine_02->SetupAttachment(GetMesh(), FName("Spine_02"));
+	Spine_02->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Spine_02"), Spine_02);
+
+	Spine_03 = CreateDefaultSubobject<UBoxComponent>(TEXT("Spine_03"));
+	Spine_03->SetupAttachment(GetMesh(), FName("Spine_03"));
+	Spine_03->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Spine_03"), Spine_03);
+
+	UpperArm_l = CreateDefaultSubobject<UBoxComponent>(TEXT("UpperArm_l"));
+	UpperArm_l->SetupAttachment(GetMesh(), FName("UpperArm_l"));
+	UpperArm_l->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("UpperArm_l"), UpperArm_l);
+
+	UpperArm_r = CreateDefaultSubobject<UBoxComponent>(TEXT("UpperArm_r"));
+	UpperArm_r->SetupAttachment(GetMesh(), FName("UpperArm_r"));
+	UpperArm_r->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("UpperArm_r"), UpperArm_r);
+
+	LowerArm_l = CreateDefaultSubobject<UBoxComponent>(TEXT("LowerArm_l"));
+	LowerArm_l->SetupAttachment(GetMesh(), FName("LowerArm_l"));
+	LowerArm_l->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("LowerArm_l"), LowerArm_l);
+
+	LowerArm_r = CreateDefaultSubobject<UBoxComponent>(TEXT("LowerArm_r"));
+	LowerArm_r->SetupAttachment(GetMesh(), FName("LowerArm_r"));
+	LowerArm_r->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("LowerArm_r"), LowerArm_r);
+
+	Hand_l = CreateDefaultSubobject<UBoxComponent>(TEXT("Hand_l"));
+	Hand_l->SetupAttachment(GetMesh(), FName("Hand_l"));
+	Hand_l->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Hand_l"), Hand_l);
+
+	Hand_r = CreateDefaultSubobject<UBoxComponent>(TEXT("Hand_r"));
+	Hand_r->SetupAttachment(GetMesh(), FName("Hand_r"));
+	Hand_r->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Hand_r"), Hand_r);
+
+	Thigh_l = CreateDefaultSubobject<UBoxComponent>(TEXT("Thigh_l"));
+	Thigh_l->SetupAttachment(GetMesh(), FName("Thigh_l"));
+	Thigh_l->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Thigh_l"), Thigh_l);
+
+	Thigh_r = CreateDefaultSubobject<UBoxComponent>(TEXT("Thigh_r"));
+	Thigh_r->SetupAttachment(GetMesh(), FName("Thigh_r"));
+	Thigh_r->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Thigh_r"), Thigh_r);
+
+	Calf_l = CreateDefaultSubobject<UBoxComponent>(TEXT("Calf_l"));
+	Calf_l->SetupAttachment(GetMesh(), FName("Calf_l"));
+	Calf_l->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Calf_l"), Calf_l);
+
+	Calf_r = CreateDefaultSubobject<UBoxComponent>(TEXT("Calf_r"));
+	Calf_r->SetupAttachment(GetMesh(), FName("Calf_r"));
+	Calf_r->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Calf_r"), Calf_r);
+
+	Foot_l = CreateDefaultSubobject<UBoxComponent>(TEXT("Foot_l"));
+	Foot_l->SetupAttachment(GetMesh(), FName("Foot_l"));
+	Foot_l->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Foot_l"), Foot_l);
+
+	Foot_r = CreateDefaultSubobject<UBoxComponent>(TEXT("Foot_r"));
+	Foot_r->SetupAttachment(GetMesh(), FName("Foot_r"));
+	Foot_r->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	HitCollisionBoxes.Add(FName("Foot_r"), Foot_r);
 }
 
 void ABlasterCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
@@ -367,10 +454,22 @@ void ABlasterCharacter::PostInitializeComponents()
 	if (Buff)
 	{
 		Buff->Character = this;
-		Buff->SetInitialSpeeds(GetCharacterMovement()->MaxWalkSpeed,
+		Buff->SetInitialSpeeds(
+			GetCharacterMovement()->MaxWalkSpeed,
 			GetCharacterMovement()->MaxWalkSpeedCrouched
 		);
+
 		Buff->SetInitialJumpVelocity(GetCharacterMovement()->JumpZVelocity);
+	}
+
+	if (LagCompensation)
+	{
+		LagCompensation->Character = this;
+
+		if (Controller)
+		{
+			LagCompensation->Controller = Cast<ABlasterPlayerController>(Controller);
+		}	
 	}
 }
 

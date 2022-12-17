@@ -90,6 +90,8 @@ public:
 	void UpdateHUDAmmo();
 
 	void SpawnDefaultWeapon();
+	UPROPERTY()
+	TMap<FName, class UBoxComponent*> HitCollisionBoxes;
 
 protected:
 	virtual void BeginPlay() override;
@@ -126,6 +128,57 @@ protected:
 	void PollInit();
 	void RotateInPlace(float DeltaTime);
 
+	/*
+		Hit boxes used for server side rewind
+	*/
+	UPROPERTY(EditAnywhere)
+		class UBoxComponent* Head;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Pelvis;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Spine_02;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Spine_03;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* UpperArm_l;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* UpperArm_r;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* LowerArm_l;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* LowerArm_r;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Hand_l;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Hand_r;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Thigh_l;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Thigh_r;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Calf_l;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Calf_r;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Foot_l;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Foot_r;
+
 private:
 	UPROPERTY(VisibleAnywhere, Category = Mesh)
 	class USkeletalMeshComponent* BaseMesh;
@@ -145,11 +198,17 @@ private:
 	UFUNCTION()
 	void OnRep_OverlappingWeapon(AWeapon* LastWeapon);
 
+	/*
+		Blaster Components
+	*/
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UCombatComponent* Combat;
 
 	UPROPERTY(VisibleAnywhere)
 	class UBuffComponent* Buff;
+
+	class ULagCompensationComponent* LagCompensation;
 
 	UFUNCTION(Server, Reliable)
 	void ServerEquipButtonPressed();
